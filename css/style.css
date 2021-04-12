@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+    font-size: 'Montserrat', sans-serif;
 }
 
 header {
@@ -25,6 +26,10 @@ header {
     max-width: 1140px;
 }
 
+.brand {
+    letter-spacing: 5px;
+}
+
 .navbar-expand.top .navbar-nav .nav-item a:not(.btn) {
     font-size: 15px;
     font-weight: 400;
@@ -41,17 +46,29 @@ header {
 }
 
 .first {
-    color: #60a9ad;
+    color: #098081;
 }
 
 .gen,
 .nav-link,
-.primary-button,
-.title {
+.primary-button {
     color: #e7eee9;
 }
 
-.primary-button, .primary-button:visited, .primary-button:active {
+.white-text {
+    font-size: 40px;
+    color: #fff;
+}
+
+#bg-jumbo {
+    z-index: -5;
+}
+
+.grey-text {
+    color: #e7eee9;
+}
+
+.primary-button, .primary-button:active {
     position: relative;
     z-index: 2;
     padding: 10px 25px;
@@ -79,9 +96,6 @@ section {
 }
 
 .full-image {
-    opacity: 0.6;
-}
-.full-image {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -90,13 +104,20 @@ section {
     object-fit: cover;
     object-position: top;
 }
+/* .full-image {
+    opacity: 0.6;
+} */
+
 
 .btn-read {
     border-color: #52babb;
     border: 2px solid #52babb;
     border-radius: 4px;
     padding: 10px 25px;
+    background-color: transparent;
 }
+
+
 
 .introduction-video {
     width: fit-content;
@@ -105,7 +126,30 @@ section {
     font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
+    color: #52babb;
+}
+
+h2 .perfomance {
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
     color: #098081;
+}
+
+h2 .perfomance span {
+    position: relative;
+}
+
+h2 .perfomance:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #52babb;
+    opacity: 0.15;
 }
 
 .video-image .fit-image {
