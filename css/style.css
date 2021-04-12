@@ -97,3 +97,46 @@ section {
     border-radius: 4px;
     padding: 10px 25px;
 }
+
+.introduction-video {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #098081;
+}
+
+.video-image .fit-image {
+    width: 100%;
+    height: 100%;
+}
+
+.square-image .icon.clone {
+    margin: 0;
+    color: #60a9ad;
+    opacity: 0.6;
+}
+.square-image .icon {
+    position: absolute;
+    z-index: 1;
+    color: #e7eee9;
+    opacity: 0.75;
+    transition-timing-function: cubic-bezier(.25, .25, .75, .75);
+    transition-duration: 0.3s;
+    transition-property: opacity, transform;
+}
+.icon.bigger {
+    width: 5rem;
+    height: 5rem;
+    margin: 0;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.square-image .icon.clone {
+    margin: -17.5px -10px 0;
+    opacity: 0.75;
+}
