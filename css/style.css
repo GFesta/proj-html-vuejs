@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    z-index: 5;
+}
+
+.navbar.top {
+    position: relative;
+    z-index: 5;
+    height: 50px;
+    padding: 0;
+    background-color: #568597;
+}
+.container.header {
+    max-width: 1140px;
+}
+
+.navbar-expand.top .navbar-nav .nav-item a:not(.btn) {
+    font-size: 15px;
+    font-weight: 400;
+    color: #e7eee9;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.mr-2, .mx-2 {
+    margin-right: .5rem;
+}
+
+.first {
+    color: #60a9ad;
+}
+
+.gen,
+.nav-link,
+.primary-button,
+.title {
+    color: #e7eee9;
+}
+
+.primary-button, .primary-button:visited, .primary-button:active {
+    position: relative;
+    z-index: 2;
+    padding: 10px 25px;
+    background-color: #52babb;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #52babb;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 130px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.jumbo {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.full-image {
+    opacity: 0.6;
+}
+.full-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 115%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.btn-read {
+    border-color: #52babb;
+    border: 2px solid #52babb;
+    border-radius: 4px;
+    padding: 10px 25px;
+}
