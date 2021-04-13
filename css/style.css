@@ -78,6 +78,7 @@ header {
     border-color: #52babb;
 }
 
+/* JUMBO */
 section {
     position: relative;
     width: 100%;
@@ -107,7 +108,12 @@ section {
 /* .full-image {
     opacity: 0.6;
 } */
+/* JUMBO- */
 
+/* BUTTONS */
+.btn-get:hover {
+    color: #e7eee9;
+}
 
 .btn-read {
     border-color: #52babb;
@@ -115,10 +121,15 @@ section {
     border-radius: 4px;
     padding: 10px 25px;
     background-color: transparent;
+    color: #e7eee9;
 }
+.btn-read:hover {
+    background-color: #52babb;
+    color: #e7eee9;
+}
+/* BUTTONS */
 
-
-
+/* VIDEO- */
 .introduction-video {
     width: fit-content;
     margin: auto;
@@ -183,4 +194,30 @@ h2 .perfomance:before {
 .square-image .icon.clone {
     margin: -17.5px -10px 0;
     opacity: 0.75;
+}
+/* VIDEO */
+
+/* RESULTS */
+section {
+    position: relative;
+    width: 100%;
+    padding: 130px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#results {
+    background-color: black;
+    background-image: url(../img/bg-1.jpg);
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
