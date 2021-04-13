@@ -10,6 +10,22 @@ body {
     font-size: 'Montserrat', sans-serif;
 }
 
+/* utility */
+section {
+    position: relative;
+    width: 100%;
+    padding: 130px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0;
+}
+/* utility */
+
 header {
     position: relative;
     z-index: 5;
@@ -198,23 +214,9 @@ h2 .perfomance:before {
 /* VIDEO */
 
 /* RESULTS */
-section {
-    position: relative;
-    width: 100%;
-    padding: 130px 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
 #results {
     background-color: black;
     background-image: url(../img/bg-1.jpg);
-}
-
-.container {
-    max-width: 1170px;
-    padding: 0;
 }
 
 .row {
@@ -232,13 +234,12 @@ section {
     color: #52babb;
 }
 
-h2 {
-    color: #fff;
-}
+
 h2 .results-title {
     position: relative;
     display: inline-block;
     padding: 5px 15px;
+    color: #fff;
 }
 h2 .results-title:before {
     content: '';
@@ -259,7 +260,6 @@ h2 .results-title:before {
     text-align: center;
 }
 .data-numbers {
-    
     font-size: 2.5rem;
     color: #52babb;
     font-weight: 700;
@@ -280,3 +280,90 @@ h4 {
     color: #fff;
     font-weight: 700;
 }
+
+.title-white,
+.service-title {
+    color: #fff;
+}
+/* RESULTS */
+
+/* SERVICE */
+#services {
+    background-color: #111117;
+}
+.intro {
+    margin-bottom: 50px;
+}
+
+h2 .service-title {
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #52babb;
+}
+/* h2 .services-title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    opacity: 0.15;
+    background-color: #52babb;
+} */
+p {
+    color: #bcbdbd;
+}
+
+.btn-seeall {
+    border-color: #52babb;
+    border: 2px solid #52babb;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #e7eee9;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px;
+    padding: 45px;
+    border: none;
+}
+.card:not(.no-hover) {
+    background-color: #1d2528;
+}
+
+.icon {
+    margin: 0;
+    color: #098081;
+}
+.icon-organization:before {
+    content: "\e616";
+}
+
+.fa-arrow-right:before {
+    content: "\f061";
+}
+
+a:not(.btn), a:link:not(.btn), a:visited:not(.btn), a:hover:not(.btn), a:active:not(.btn) {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #098081;
+    text-decoration: none;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.item {
+    margin-bottom: 30px;
+}
+/* SERVICE- */
+
