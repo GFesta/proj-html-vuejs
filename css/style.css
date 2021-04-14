@@ -59,7 +59,8 @@ header {
 }  
  
 .brand {  
-    letter-spacing: 5px;  
+    letter-spacing: 5px;
+    font-weight: 700;  
 }  
  
 .navbar-expand.top .navbar-nav .nav-item a:not(.btn) {  
@@ -575,3 +576,12 @@ footer .copyright {
     color: #52babb;
     text-decoration: none;
 }
+
+/* .width-50 {
+    width: 50%;
+}
+.form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+} */
