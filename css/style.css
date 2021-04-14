@@ -538,3 +538,40 @@ img {
     color: #098081;
     border-radius: 4px;
 }
+
+/* FOOTER */
+#footer {
+    background-image: url(../img/bg-7.jpg);
+}
+
+footer a.navbar-brand:not(.btn) {
+    padding: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #e7eee9;
+}
+footer .card i {
+    margin-right: 10px;
+    color: #e7eee9;
+}
+
+.card:not(.no-hover) {
+    background-color: rgba(255, 255, 255, 0.035);
+}
+
+.link-footer {
+    color: #bcbdbd;
+    text-decoration: none;
+}
+/* FOOTER */
+
+/* COPYR */
+footer .copyright {
+    background-color: #111117;
+}
+
+.color {
+    color: #52babb;
+    text-decoration: none;
+}
