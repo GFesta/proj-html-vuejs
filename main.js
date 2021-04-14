@@ -5,26 +5,11 @@ var app = new Vue({
             name: ['home', 'about', 'services', 'team', 'blog'],
 
             footer: {
-                info: {
-                    
+                about: ['The Company', 'Institutional', 'Social & Events', 'Innovation', 'Environment', 'Technology'],
+                services: ['Audit & Assurance', 'Financial Advisory', 'Analytics M&A', 'Middle Marketing', 'Legal Consulting', 'Regulatory Risk<'],
+                support: ['Responsibility', 'Terms of Use', 'About Cookies', 'Privacy Policy', 'Accessibility', 'Information']
+
                 }
-            }
-        },
-    }
+            },
+        }
 });
-
-
-// nav_lists: {
-//     head : ['home', 'about', 'departments', 'articles'],
-
-//     footer : {
-//         infos : {
-//             location : '121 King Street, London United Kingdom',
-//             phone : '1.800.458.556' 
-//         },
-        
-//         departments : ['Cardiology', 'Pediatrics', 'Diabetes Care', 'Pre-natel Care','Ultrasound Echocardiogram'],
-
-//         credits : ['© Copyright 2012-2020','Avada theme by', 'All Rights Reserved', 'Powered by ']
-//     }
-// },    
