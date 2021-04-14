@@ -318,7 +318,7 @@ p {
     background-color: transparent;  
     color: #e7eee9;  
 }  
- 
+
 .card {  
     position: relative;  
     z-index: 1;  
@@ -330,18 +330,21 @@ p {
 .card:not(.no-hover) {  
     background-color: #1d2528;  
 }  
- 
-.icon {  
+
+.icons-2 {  
     margin: 0;  
-    color: #098081;  
+    color: #098081; 
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px; 
 }  
-.icon-organization:before {  
+/* .icon-organization:before {  
     content: "\e616";  
 }  
  
 .fa-arrow-right:before {  
     content: "\f061";  
-}  
+}   */
  
 /* a:not(.btn), a:link:not(.btn), a:visited:not(.btn), a:hover:not(.btn), a:active:not(.btn) {  
     font-size: 1rem;  
