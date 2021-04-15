@@ -3,13 +3,13 @@
     padding: 0;  
     box-sizing: border-box;  
 }  
- 
+
 body {  
     width: 100%;  
     height: 100%;  
     font-size: 'Montserrat', sans-serif;  
 }  
- 
+
 /* utility */  
 section {  
     position: relative;  
@@ -19,21 +19,21 @@ section {
     background-attachment: fixed;  
     background-position: center;  
 } 
- 
+
 .container {  
     max-width: 1170px;  
     padding: 0;  
 }  
- 
+
 .grey-text {  
     color: #e7eee9;  
 }  
- 
+
 .white-text {  
     font-size: 40px;  
     color: #fff;  
 } 
- 
+
 .gen,  
 .nav-link,  
 .primary-button {  
@@ -68,12 +68,12 @@ section {
     margin-bottom: 30px;  
 } 
 /* utility */  
- 
+
 header {  
     position: relative;  
     z-index: 5;  
 }  
- 
+
 .navbar.top {  
     position: relative;  
     z-index: 5;  
@@ -81,39 +81,39 @@ header {
     padding: 0;  
     background-color: #568597;  
 } 
- 
+
 .container.header {  
     max-width: 1140px;  
 }  
- 
+
 .brand {  
     letter-spacing: 5px;
     font-weight: 700;  
 }  
- 
+
 .navbar-expand.top .navbar-nav .nav-item a:not(.btn) {  
     font-size: 15px;  
     font-weight: 400;  
     color: #e7eee9;  
 }  
- 
+
 .navbar-expand .navbar-nav .nav-link {  
     padding-right: .5rem;  
     padding-left: .5rem;  
 }  
- 
+
 .mr-2, .mx-2 {  
     margin-right: .5rem;  
 }  
- 
+
 .first {  
     color: #098081;  
 }  
- 
+
 #bg-jumbo {  
     z-index: -5;  
 } 
- 
+
 .primary-button, .primary-button:active {  
     position: relative;  
     z-index: 2;  
@@ -123,7 +123,7 @@ header {
     border: 1px solid;  
     border-color: #52babb;  
 }  
- 
+
 /* JUMBO */  
 .jumbo {  
     flex-shrink: 0;  
@@ -132,7 +132,7 @@ header {
     position: relative;  
     transition-property: transform;  
 }  
- 
+
 .full-image {  
     position: absolute;  
     right: 0;  
@@ -146,12 +146,12 @@ header {
     opacity: 0.6;  
 } */  
 /* JUMBO- */  
- 
+
 /* BUTTONS */  
 .btn-get:hover {  
     color: #e7eee9;  
 }  
- 
+
 .btn-read {  
     border-color: #52babb;  
     border: 2px solid #52babb;  
@@ -165,7 +165,7 @@ header {
     color: #e7eee9;  
 }  
 /* BUTTONS */  
- 
+
 /* VIDEO- */  
 .introduction-video {  
     width: fit-content;  
@@ -176,18 +176,16 @@ header {
     text-transform: uppercase;  
     color: #52babb;  
 }  
- 
+
 h2 .perfomance {  
     position: relative;  
     display: inline-block;  
     padding: 5px 15px;  
     color: #098081;  
 }  
- 
 h2 .perfomance span {  
     position: relative;  
 }  
- 
 h2 .perfomance:before {  
     content: '';  
     position: absolute;  
@@ -199,12 +197,12 @@ h2 .perfomance:before {
     background-color: #52babb;  
     opacity: 0.15;  
 }  
- 
+
 .video-image .fit-image {  
     width: 100%;  
     height: 100%;  
 }  
- 
+
 .square-image .icon.clone {  
     margin: 0;  
     color: #60a9ad;  
@@ -227,24 +225,24 @@ h2 .perfomance:before {
     line-height: 5rem;  
     font-weight: bold;  
 }  
- 
+
 .square-image .icon.clone {  
     margin: -17.5px -10px 0;  
     opacity: 0.75;  
 }  
 /* VIDEO */  
- 
+
 /* RESULTS */  
 #results {  
     background-color: black;  
     background-image: url(../img/bg-1.jpg);  
 }  
- 
+
 .row {  
     margin-left: 0;  
     margin-right: 0;  
 }  
- 
+
 .pre-title {  
     width: fit-content;  
     margin: auto;  
@@ -254,7 +252,7 @@ h2 .perfomance:before {
     text-transform: uppercase;  
     color: #52babb;  
 } 
- 
+
 h2 .results-title {  
     position: relative;  
     display: inline-block;  
@@ -272,20 +270,20 @@ h2 .results-title:before {
     opacity: 0.15;  
     background-color: #52babb;  
 }  
- 
+
 .counter {  
     position: relative;  
     width: 110px;  
     display: inline-block;  
     text-align: center;  
 }  
- 
+
 .data-numbers {  
     font-size: 2.5rem;  
     color: #52babb;  
     font-weight: 700;  
 }  
- 
+
 .counter .data-numbers span {  
     position: absolute;  
     top: 35px;  
@@ -296,27 +294,27 @@ h2 .results-title:before {
     font-size: 2rem;  
     font-weight: 700;  
 }  
- 
+
 h4 {  
     color: #fff;  
     font-weight: 700;  
 }  
- 
+
 .title-white,  
 .services-title {  
     color: #fff;  
 }  
 /* RESULTS */  
- 
+
 /* SERVICE */  
 #services {  
     background-color: #111117;  
 }  
- 
+
 .intro {  
     margin-bottom: 50px;  
 }  
- 
+
 .pre-title-areas {  
     width: fit-content;  
     margin: auto;  
@@ -325,7 +323,7 @@ h4 {
     text-transform: uppercase;  
     color: #52babb;  
 }  
- 
+
 h2 .services-title, 
 .know {  
     position: relative;  
@@ -338,7 +336,7 @@ h2 .services-title,
 p {  
     color: #bcbdbd;  
 }  
- 
+
 .btn-seeall {  
     border-color: #52babb;  
     border: 2px solid #52babb;  
@@ -377,22 +375,6 @@ p {
     line-height: 45px;
     font-size: 20px;
 }
-/* .icon-organization:before {  
-    content: "\e616";  
-}  
-
-.fa-arrow-right:before {  
-    content: "\f061";  
-}   */
-
-/* a:not(.btn), a:link:not(.btn), a:visited:not(.btn), a:hover:not(.btn), a:active:not(.btn) {  
-    font-size: 1rem;  
-    font-weight: 400;  
-    line-height: 1.5;  
-    color: #098081;  
-    text-decoration: none;  
-} */  
-
 /* SERVICE- */ 
 
 /* TEAM */  
