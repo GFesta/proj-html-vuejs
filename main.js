@@ -6,7 +6,7 @@ var app = new Vue({
 
             footer: {
                 about: ['The Company', 'Institutional', 'Social & Events', 'Innovation', 'Environment', 'Technology'],
-                services: ['Audit & Assurance', 'Financial Advisory', 'Analytics M&A', 'Middle Marketing', 'Legal Consulting', 'Regulatory Risk<'],
+                services: ['Audit&Assurance', 'Financial Advisory', 'Analytics M&A', 'Middle Marketing', 'Legal Consulting', 'Regulatory Risk<'],
                 support: ['Responsibility', 'Terms of Use', 'About Cookies', 'Privacy Policy', 'Accessibility', 'Information']
 
                 }
